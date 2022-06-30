@@ -62,7 +62,7 @@ namespace _20220630ArmandoLozano.Controllers
 
         // POST api/<CitaController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] e)
         {
         }
 
