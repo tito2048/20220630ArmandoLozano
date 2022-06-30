@@ -10,7 +10,7 @@ namespace DAL.REPOSITORIO
 {
     public class REPO_CITA
     {
-        SqlConnection con = new SqlConnection("Data Source = LOZANO-PC'\'SQLEXPRESS; Initial Catalog= DemoDB; User Id=armando; Password=987654;");
+        SqlConnection con = new SqlConnection("Data Source = LOZANO-PC'\'SQLEXPRESS; Initial Catalog= UNIDADMEDICA; User Id=armando; Password=987654;");
         public string ClientesOpt(CITA cita)
         {
             string msg = string.Empty;
